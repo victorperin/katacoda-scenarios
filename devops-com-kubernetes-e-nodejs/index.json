@@ -1,17 +1,19 @@
 {
+  "pathwayTitle": "Pathway Title",
   "title": "Kubernetes + NodeJS",
   "description": "Vamos criar algumas aplicações simples usando NodeJS, e integrando tudo com Kubernetes.",
   "difficulty": "intermediário",
   "time": "1 hora e 30 minutos",
   "details": {
     "steps": [
-      { "title": "Step 1", "text": "step1.md" },
-      { "title": "Step 2", "text": "step2.md" },
-      { "title": "Step 3", "text": "step3.md" }
+      { "title": "Passo 1 - Rodando o minikube", "text": "step1.md", "code": "env-init.sh" },
+      { "title": "Passo 2 - Publicando uma api NodeJS no Docker Hub", "text": "step2.md" },
+      { "title": "Passo 3 - Fazendo deploy da sua aplicação para o Kubernetes", "text": "step3.md" },
+      { "title": "Passo 4 - Criando um service", "text": "step4.md" }
     ],
     "intro": { "text": "intro.md" },
     "finish": { "text": "finish.md" }
   },
   "environment": { "uilayout": "editor-terminal" },
-  "backend": { "imageid": "kubernetes" }
+  "backend": { "imageid": "minikube" }
 }
