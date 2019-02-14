@@ -1,6 +1,6 @@
 {
-  "title": "Kubernetes Nodejs\u001b[1~\u0008",
-  "description": "Tes\u0008\u0008\u0008",
+  "title": "Desenvolvendo uma aplicação DevOps usando Kubernetes e NodeJS ",
+  "description": "Vamos criar algumas aplicações simples usando NodeJS, e integrando tudo com Kubernetes.",
   "details": {
     "steps": [
       {
@@ -24,7 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor \u0008-terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "kubernetes"
