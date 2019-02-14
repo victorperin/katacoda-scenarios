@@ -1,32 +1,17 @@
 {
   "title": "Kubernetes + NodeJS",
   "description": "Vamos criar algumas aplicações simples usando NodeJS, e integrando tudo com Kubernetes.",
+  "difficulty": "intermediário",
+  "time": "1 hora e 30 minutos",
   "details": {
     "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      }
+      { "title": "Step 1", "text": "step1.md" },
+      { "title": "Step 2", "text": "step2.md" },
+      { "title": "Step 3", "text": "step3.md" }
     ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    "intro": { "text": "intro.md" },
+    "finish": { "text": "finish.md" }
   },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
-  "backend": {
-    "imageid": "kubernetes"
-  }
+  "environment": { "uilayout": "editor-terminal" },
+  "backend": { "imageid": "kubernetes" }
 }
